@@ -1,18 +1,20 @@
-# 昌庫
+# 倉庫
+* maven
+* helm-charts
+* .....
 
-## maven2
+## 設定
+![github setting](github-pages-setting.png)
 
-> https://repo1.maven.org/`maven2`/org/springframework/boot......
-
-
-## 測試打開 maven-metadata.xml
+## maven
+> 測試打開 maven-metadata.xml
 [https://yudady.github.io/repo/maven2/io/github/yudady/bilibili-video/maven-metadata.xml](https://yudady.github.io/repo/maven2/io/github/yudady/bilibili-video/maven-metadata.xml)
 
-## used
+> maven used
 ```xml
 <repositories>
     <repository>
-        <id>yudady-maven2</id>
+        <id>repo-maven</id>
         <url>https://yudady.github.io/repo/maven2</url>
     </repository>
 </repositories>
@@ -25,9 +27,7 @@
 </dependencies>
 ```
 
-
-
-## maven publish
+> maven publish
 ```groovy
 
 javadoc.options.encoding("utf-8")
@@ -55,5 +55,3 @@ publishing {
 }
 ```
 
-## 設定
-![setting](github-pages-setting.png)
