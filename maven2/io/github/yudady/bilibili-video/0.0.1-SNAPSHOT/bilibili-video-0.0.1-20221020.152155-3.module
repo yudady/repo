@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.yudady",
+    "module": "bilibili-video",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "bilibili-video-0.0.1-SNAPSHOT.jar",
+          "url": "bilibili-video-0.0.1-SNAPSHOT.jar",
+          "size": 45699761,
+          "sha512": "9ab2263c369cddba43345908ca1a96d2852c45e9bef1175beada488e0d284ec943e1315318f008ccbfb3300c84590440bcc83d38362c5e523129d64d27862104",
+          "sha256": "6a1220dd64623c5d2a7cfb334d13edc1b4e63bd527a57d12ffd1e6271a24f304",
+          "sha1": "bf4fd3562c0b9faa65f03b61c1f347b9e290b0cf",
+          "md5": "1718ce2e6f8145f72dd6b28f2646aec0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.intellij",
+          "module": "javac2",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "com.intellij",
+          "module": "forms_rt",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "asm",
+          "module": "asm-all",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20180813"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.55"
+          }
+        },
+        {
+          "group": "net.bramp.ffmpeg",
+          "module": "ffmpeg",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bilibili-video-0.0.1-SNAPSHOT.jar",
+          "url": "bilibili-video-0.0.1-SNAPSHOT.jar",
+          "size": 45699761,
+          "sha512": "9ab2263c369cddba43345908ca1a96d2852c45e9bef1175beada488e0d284ec943e1315318f008ccbfb3300c84590440bcc83d38362c5e523129d64d27862104",
+          "sha256": "6a1220dd64623c5d2a7cfb334d13edc1b4e63bd527a57d12ffd1e6271a24f304",
+          "sha1": "bf4fd3562c0b9faa65f03b61c1f347b9e290b0cf",
+          "md5": "1718ce2e6f8145f72dd6b28f2646aec0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bilibili-video-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "bilibili-video-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 175581,
+          "sha512": "0749aaa4a162f32fcfcac811c69b50feb266ecf2736ca87600b0a36ac7c8a7f9bb275937681d1221f7994f01006af50e182136be51aefa20870f0428f9549afd",
+          "sha256": "07d8832b0d9828191eae2bd38e46047f32f9f9aab1746e48390e18ede7376721",
+          "sha1": "79b2f58c5d4e59d98132931e3a99de9227b76635",
+          "md5": "f6ffb28a4adcf0ab5d809d7840e236b8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bilibili-video-0.0.1-SNAPSHOT-sources.jar",
+          "url": "bilibili-video-0.0.1-SNAPSHOT-sources.jar",
+          "size": 45691051,
+          "sha512": "c913be394c4e17ec2f9b03ce7d067384e58de8f2dcf06b7b364c7b02c8e610b9bce771428ed1d3a960991b28f0c9a4ae53fb59a21f11ae5fafa83ee8119f8db8",
+          "sha256": "b7bf3144575564b3660638320d46af806218068ddad31c3828a6984f1f7edf7e",
+          "sha1": "335bb5a7b05fb69d611c0f7ab79f9e11bbc332a8",
+          "md5": "cad4a474d7b1153b6510dcd6a7a7508a"
+        }
+      ]
+    }
+  ]
+}
