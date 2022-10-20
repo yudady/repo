@@ -25,6 +25,34 @@
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
 </dependencies>
+
+
+
+```xml
+repositories {
+	mavenCentral()
+	maven {
+		url = uri("https://yudady.github.io/repo/maven2")
+	}
+	maven {
+		url = uri("https://maven.pkg.github.com/yudady/io.github.yudady")
+		credentials {
+			username = "yudady"
+			password = "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"
+		}
+	}
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'io.github.yudady:utils:0.0.1-SNAPSHOT'
+	implementation 'io.github.yudady:bilibili-video:0.0.1-SNAPSHOT'
+}
+```
+
+
 ```
 
 > maven publish
