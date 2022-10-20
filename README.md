@@ -1,7 +1,6 @@
 # 倉庫
 * maven
 * helm-charts
-* .....
 
 ## 設定
 ![github setting](github-pages-setting.png)
@@ -25,9 +24,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
 </dependencies>
+...
 
 
-
+> gradle used
 ```xml
 repositories {
 	mavenCentral()
@@ -53,7 +53,7 @@ dependencies {
 ```
 
 
-```
+
 
 > maven publish
 ```groovy
