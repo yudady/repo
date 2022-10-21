@@ -22,18 +22,19 @@
 		<url>https://yudady.github.io/repo/maven2</url>
 	</repository>
 </repositories>
-<dependencies>
-<dependency>
-	<groupId>io.github.yudady</groupId>
-	<artifactId>bilibili-video</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-</dependency>
 
-<dependency>
-	<groupId>io.github.yudady</groupId>
-	<artifactId>utils</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>io.github.yudady</groupId>
+        <artifactId>bilibili-video</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>io.github.yudady</groupId>
+        <artifactId>utils</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
 
 </dependencies>
 ```
