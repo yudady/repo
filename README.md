@@ -39,7 +39,7 @@ repositories {
 		url = uri("https://maven.pkg.github.com/yudady/io.github.yudady")
 		credentials {
 			username = "yudady"
-			password = "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"
+			password = "這個密碼不能commit上去" 
 		}
 	}
 }
