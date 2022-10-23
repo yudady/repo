@@ -33,7 +33,7 @@
     <dependency>
         <groupId>io.github.yudady</groupId>
         <artifactId>utils</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </dependency>
 
 </dependencies>
@@ -61,7 +61,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	implementation 'io.github.yudady:utils:0.0.1-SNAPSHOT'
+	implementation 'io.github.yudady:utils:0.0.2-SNAPSHOT'
 	implementation 'io.github.yudady:bilibili-video:0.0.1-SNAPSHOT'
 }
 ```
