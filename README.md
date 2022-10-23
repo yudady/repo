@@ -89,7 +89,7 @@ publishing {
 
 	repositories {
 		maven {
-			url = "file:///d:/tommy/github-repo/yudady/repo/maven2"
+            url = "file:///d:/tommy/github-repo/yudady-source/repo/maven2"
 		}
 	}
 }
