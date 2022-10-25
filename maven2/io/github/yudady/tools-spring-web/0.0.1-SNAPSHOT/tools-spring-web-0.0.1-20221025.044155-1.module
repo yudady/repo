@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.yudady",
+    "module": "tools-spring-web",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tools-spring-web-0.0.1-SNAPSHOT-plain.jar",
+          "url": "tools-spring-web-0.0.1-SNAPSHOT-plain.jar",
+          "size": 2912,
+          "sha512": "af9c88247036887e954fb142d21c76921d8f60845164efe286081b809602b31b21dc0511676bf6c6ec5f25e4e3d2242f76dd08066aece93d6718dac7765c7d3f",
+          "sha256": "ff82d91787c75347884a4f5c106e06b861c72b6d71228f8aa726267157ab0b4d",
+          "sha1": "5e384453d85a6a88f9c7e238ca18867cc6c99bfe",
+          "md5": "436811230da4adc63fd89e8fa9bf247d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-spring-web-0.0.1-SNAPSHOT-plain.jar",
+          "url": "tools-spring-web-0.0.1-SNAPSHOT-plain.jar",
+          "size": 2912,
+          "sha512": "af9c88247036887e954fb142d21c76921d8f60845164efe286081b809602b31b21dc0511676bf6c6ec5f25e4e3d2242f76dd08066aece93d6718dac7765c7d3f",
+          "sha256": "ff82d91787c75347884a4f5c106e06b861c72b6d71228f8aa726267157ab0b4d",
+          "sha1": "5e384453d85a6a88f9c7e238ca18867cc6c99bfe",
+          "md5": "436811230da4adc63fd89e8fa9bf247d"
+        }
+      ]
+    }
+  ]
+}
