@@ -3,10 +3,10 @@
   <groupId>io.github.yudady</groupId>
   <artifactId>tools-utils</artifactId>
   <versioning>
-    <latest>0.0.1-SNAPSHOT</latest>
+    <latest>0.0.2-SNAPSHOT</latest>
     <versions>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20221025044146</lastUpdated>
+    <lastUpdated>20221026124257</lastUpdated>
   </versioning>
 </metadata>
