@@ -26,13 +26,13 @@
 <dependencies>
     <dependency>
         <groupId>io.github.yudady</groupId>
-        <artifactId>bilibili-video</artifactId>
+        <artifactId>tools-spring-web</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
     
     <dependency>
         <groupId>io.github.yudady</groupId>
-        <artifactId>utils</artifactId>
+        <artifactId>tools-utils</artifactId>
         <version>0.0.2-SNAPSHOT</version>
     </dependency>
 
@@ -77,21 +77,38 @@ java {
 }
 
 publishing {
-	publications {
-		maven2LocalRepo(MavenPublication) {
-			groupId = 'io.github.yudady'
-			artifactId = 'bilibili-video'
-			version = '0.0.1-SNAPSHOT'
+    publications {
 
-			from components.java
-		}
-	}
+        mavenJava(MavenPublication) {
+            //指定group/artifact/version信息
+            group rootProject.ext.projectGroup
+            artifactId = project.name
+            version rootProject.ext.projectVersion
 
-	repositories {
-		maven {
-            url = "file:///d:/tommy/github-repo/yudady-source/repo/maven2"
-		}
-	}
+            // components.java jar包
+            // components.web war包
+            from components.java
+
+            // 增加 sourcesJar、javadocJar 任务
+            // artifact sourcesJar
+            // artifact javadocJar
+        }
+
+        // bootJar is the default build task configured by Spring Boot
+        //	mavenJava(MavenPublication) {
+        //		group rootProject.ext.projectGroup
+        //		artifactId = project.name
+        //		version rootProject.ext.projectVersion
+        //		// bootJar is the default build task configured by Spring Boot
+        //		artifact bootJar
+        //	}
+    }
+
+    repositories {
+        maven {
+            url = "file:///d:/tommy/github-repo/yudady/repo/maven2"
+        }
+    }
 }
 ```
 
