@@ -114,8 +114,20 @@ publishing {
 
 ## helm-charts
 
+
+```shell
+# helm package
+# 1
+helm package ./charts/youtube-stats-chart -d ./charts/youtube-stats-chart
+# 2
+helm repo index charts/youtube-stats-chart
 ```
 
+
+```shell
+# helm pull
+helm repo add yudady https://yudady.github.io/repo/charts
+helm pull yudady/Library
 ```
 
 
