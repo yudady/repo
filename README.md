@@ -114,17 +114,9 @@ publishing {
 
 ## helm-charts
 
-* [bitnami](https://artifacthub.io/)
-
-> https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release#example-usage---chart-url
-
-```gotemplate
-resource "helm_release" "example" {
-name  = "redis"
-chart = "https://charts.bitnami.com/bitnami/redis-10.7.16.tgz"
-}
 ```
 
+```
 
 
 
